@@ -13,7 +13,7 @@ export function Header() {
 				<Dialog.Root>
 					{/* asChild aproveita a child, no caso o botão, para realizar a ação */}
 					<Dialog.DialogTrigger asChild>
-						<NewTransactionButton> Nova Transação</NewTransactionButton>
+						<NewTransactionButton>Nova Transação</NewTransactionButton>
 					</Dialog.DialogTrigger>
 
 
