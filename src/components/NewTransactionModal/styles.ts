@@ -92,13 +92,13 @@ export const TransactionTypeButton = styled(RadioGroup.Item) <TransactionTypeBut
   cursor: pointer;
   border: 0;
   color: ${props => props.theme["gray-300"]};
+  transition: background-color 0.2s;
 
   svg {
     color: ${props => props.variant === 'income' ? props.theme["green-300"] : props.theme["red-300"]};
   }
 
   &[data-state='unchecked']:hover {
-    transition: background-color 0.2s;
     background: ${props => props.theme["gray-600"]}
   }
 

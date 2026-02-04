@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:server": "json-server server.json --port 3333 --watch -d 500",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -24,6 +25,7 @@
     "@types/styled-components": "^5.1.36",
     "@vitejs/plugin-react": "^5.1.1",
     "globals": "^16.5.0",
+    "json-server": "^0.17.4",
     "typescript": "~5.9.3",
     "vite": "^7.2.4"
   }
